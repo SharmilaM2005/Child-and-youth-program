@@ -148,23 +148,11 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"janadhikara.tasks.all"
-# 	],
-# 	"daily": [
-# 		"janadhikara.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"janadhikara.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"janadhikara.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"janadhikara.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"daily": [
+		"janadhikara.tasks.update_family_member_ages"
+	],
+}
 
 # Testing
 # -------

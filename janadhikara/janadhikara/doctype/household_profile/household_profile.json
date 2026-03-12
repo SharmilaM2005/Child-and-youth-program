@@ -1,0 +1,108 @@
+{
+    "actions": [],
+    "allow_import": 1,
+    "allow_rename": 1,
+    "autoname": "format:hh{####}",
+    "creation": "2026-03-11 12:48:54.917731",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "custom": 1,
+    "field_order": [
+        "name_of_the_surveyor",
+        "name_of_the_organization",
+        "ward",
+        "settlement_name",
+        "street_name__lane_name",
+        "house_address",
+        "name_of_the_respondent",
+        "contact_number_of_the_respondent",
+        "hh_head"
+    ],
+    "fields": [
+        {
+            "fieldname": "name_of_the_surveyor",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Name of the surveyor"
+        },
+        {
+            "fieldname": "name_of_the_organization",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Name of the organization"
+        },
+        {
+            "fieldname": "ward",
+            "fieldtype": "Data",
+            "label": "Ward"
+        },
+        {
+            "fieldname": "settlement_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Settlement Name"
+        },
+        {
+            "fieldname": "street_name__lane_name",
+            "fieldtype": "Data",
+            "label": "Street name / lane name"
+        },
+        {
+            "fieldname": "house_address",
+            "fieldtype": "Small Text",
+            "label": "House address"
+        },
+        {
+            "fieldname": "name_of_the_respondent",
+            "fieldtype": "Data",
+            "label": "Name of the respondent"
+        },
+        {
+            "fieldname": "contact_number_of_the_respondent",
+            "fieldtype": "Phone",
+            "label": "Contact number of the respondent"
+        },
+        {
+            "fieldname": "hh_head",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Name of the Household Head"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [
+        {
+            "link_doctype": "Family Member",
+            "link_fieldname": "household_id"
+        }
+    ],
+    "modified": "2026-03-12 11:04:26.061371",
+    "modified_by": "Administrator",
+    "module": "janadhikara",
+    "name": "Household Profile",
+    "naming_rule": "Expression (old style)",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

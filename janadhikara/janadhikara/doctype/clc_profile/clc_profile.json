@@ -1,0 +1,88 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "format:CLC-{###}",
+    "creation": "2026-03-11 12:52:24.656843",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "custom": 1,
+    "field_order": [
+        "clc_profile_section",
+        "child_learning_center_name",
+        "name_clc_incharge",
+        "contact_num_clc_incharge",
+        "name_of_the_primary_caregiver",
+        "contact_num_primary_caregiver",
+        "name_of_the_secondary_caregiver",
+        "contact_num_secondary_caregiver"
+    ],
+    "fields": [
+        {
+            "fieldname": "clc_profile_section",
+            "fieldtype": "Section Break",
+            "label": "CLC Profile"
+        },
+        {
+            "fieldname": "child_learning_center_name",
+            "fieldtype": "Data",
+            "label": "Child Learning Center Name"
+        },
+        {
+            "fieldname": "name_clc_incharge",
+            "fieldtype": "Data",
+            "label": "Name of the CLC incharge"
+        },
+        {
+            "fieldname": "contact_num_clc_incharge",
+            "fieldtype": "Phone",
+            "label": "Contact number of the CLC incharge"
+        },
+        {
+            "fieldname": "name_of_the_primary_caregiver",
+            "fieldtype": "Data",
+            "label": "Name of the primary caregiver"
+        },
+        {
+            "fieldname": "contact_num_primary_caregiver",
+            "fieldtype": "Phone",
+            "label": "Contact number of the primary caregiver"
+        },
+        {
+            "fieldname": "name_of_the_secondary_caregiver",
+            "fieldtype": "Data",
+            "label": "Name of the secondary caregiver"
+        },
+        {
+            "fieldname": "contact_num_secondary_caregiver",
+            "fieldtype": "Phone",
+            "label": "Contact number of the secondary caregiver"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2026-03-12 11:33:47.773713",
+    "modified_by": "Administrator",
+    "module": "janadhikara",
+    "name": "CLC Profile",
+    "naming_rule": "Expression (old style)",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

@@ -1,0 +1,203 @@
+{
+    "actions": [],
+    "allow_import": 1,
+    "allow_rename": 1,
+    "autoname": "format:FM{###}",
+    "creation": "2026-03-11 12:47:27.883672",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "custom": 1,
+    "field_order": [
+        "household_id",
+        "name_of_the_household_head",
+        "name_of_the_person",
+        "gender",
+        "date_of_birth",
+        "age",
+        "child_youth",
+        "disability_status",
+        "relationship_with_the_household_head",
+        "column_break_cnad",
+        "marital_status",
+        "education_status",
+        "if_in_school",
+        "if_not_in_school",
+        "contact_number",
+        "mother_tongue",
+        "caste",
+        "religion",
+        "occupation",
+        "clc_and_ylc_entrollment",
+        "ylc"
+    ],
+    "fields": [
+        {
+            "fieldname": "household_id",
+            "fieldtype": "Link",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Household ID",
+            "options": "Household Profile"
+        },
+        {
+            "fetch_from": "household_id.hh_head",
+            "fieldname": "name_of_the_household_head",
+            "fieldtype": "Read Only",
+            "in_preview": 1,
+            "in_standard_filter": 1,
+            "is_virtual": 1,
+            "label": "Name of the Household Head"
+        },
+        {
+            "fieldname": "name_of_the_person",
+            "fieldtype": "Data",
+            "label": "Name of the person"
+        },
+        {
+            "fieldname": "gender",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "Gender",
+            "options": "\nMale\nFemale\nOthers"
+        },
+        {
+            "fieldname": "date_of_birth",
+            "fieldtype": "Date",
+            "label": "Date of Birth"
+        },
+        {
+            "fieldname": "age",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Age",
+            "read_only": 1
+        },
+        {
+            "fieldname": "child_youth",
+            "fieldtype": "Select",
+            "label": "Please Select Child or Youth",
+            "options": "\nChild\nYouth",
+            "read_only": 1
+        },
+        {
+            "fieldname": "disability_status",
+            "fieldtype": "Select",
+            "label": "Disability status",
+            "options": "\nNone\nHearing impairment\nIntellectual disability\nLocomotor disability\nVisual impairment"
+        },
+        {
+            "fieldname": "relationship_with_the_household_head",
+            "fieldtype": "Select",
+            "label": "Relationship with the household head",
+            "options": "\nSelf\nSpouse\nSon\nDaughter\nFather\nMother\nGrand father\nGrand mother\nFather in law\nMother in law\nBrother in law\nSister in Law\nCousin\nNephew\nNiece\nUncle\nAunt\nOthers"
+        },
+        {
+            "fieldname": "column_break_cnad",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "marital_status",
+            "fieldtype": "Select",
+            "label": "Marital status",
+            "options": "\nSingle\nMarried\nDivorced\nOthers"
+        },
+        {
+            "fieldname": "education_status",
+            "fieldtype": "Select",
+            "label": "Education Status",
+            "options": "\nAnganwadi\nPre school\nGrade 1\nGrade 2\nGrade 3\nGrade 4\nGrade 5\nGrade 6\nGrade 7\nGrade 8\nGrade 9\nGrade 10\nGrade 11\nGrade 12\nITI\nPoly Technic\nDiploma\nPG Diploma\nBachelor's degree\nMaster's Degree\nPhD\nIlliterate\nOthers"
+        },
+        {
+            "fieldname": "if_in_school",
+            "fieldtype": "Select",
+            "label": "If in School",
+            "options": "\nGovt\nPrivate\nAided"
+        },
+        {
+            "fieldname": "if_not_in_school",
+            "fieldtype": "Select",
+            "label": "If not in school",
+            "options": "\nRestrictions from family\nMedium of education\nnon-conducive environment in school\nFinancial constraints\nFamily Emergencies\nPreparing for exams\nLack of sanitation\nCommute (transport is inaccessible)\nto pursue employment substance use\naddiction\nmarriage\nteen pregnancy\nmedical reason\nlack of interest\nI feel I have acquired enough education\nothers specify"
+        },
+        {
+            "fieldname": "contact_number",
+            "fieldtype": "Phone",
+            "label": "Contact number"
+        },
+        {
+            "fieldname": "mother_tongue",
+            "fieldtype": "Select",
+            "label": "Mother Tongue",
+            "options": "\nHindi\nBengali\nMarathi\nTelugu\nTamil\nGujarati\nUrdu\nKannada\nOdia\nMalayalam\nPunjabi\nAssamese\nMaithili\nSantali\nKashmiri\nNepali\nSindhi\nKonkani\nDogri\nManipuri (Meitei)\nBodo\nSanskrit\nBanjari/ Lamana\nTulu\nBihari\nGujarathi\nKannada"
+        },
+        {
+            "fieldname": "caste",
+            "fieldtype": "Select",
+            "label": "Caste",
+            "options": "\nGeneral\nOBC\nSC\nST"
+        },
+        {
+            "fieldname": "religion",
+            "fieldtype": "Select",
+            "label": "Religion",
+            "options": "\nHinduism\nJainism\nIslam\nChristianity\nSikhism\nBuddhism"
+        },
+        {
+            "fieldname": "occupation",
+            "fieldtype": "Select",
+            "label": "Occupation",
+            "options": "\nAgarbatthi worker\nBeauty parlour worker\nBeedi worker\nChoultry worker\nConstruction Worker\nCoolie/ Daily wage worker.. specify\nDomestic worker\nDriver\nFactory/company worker\nFood/non-food Delivery material workers (Dunzo, Zomato, Amazon, Flipkart, etc.,)\nGarment worker\nHome based work-Specify\nHotel/restaurant worker\nHousekeeping worker\nHousewife\nLoading/unloading worker\nMall/supermarket/showroom/petrol pump worker\nManual Scavenger/Man hole worker\nNot working\nPourakarmikas/Sweepers\nSecurity guard\nSmall business shop owner (petty shop/iron/mechanic shop,etc.,)\nSmall Shop establishment workers\nStreet vendor\nUnknown\nWaste picker/Dry Waste Sorter/Waste collection vehicle driver/helper"
+        },
+        {
+            "depends_on": "eval:doc.age >= 4 && doc.age <= 14",
+            "fieldname": "clc_and_ylc_entrollment",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "CLC Entrollment",
+            "options": "Pending for Entrollment\nEntrolled\nNot Entrolled"
+        },
+        {
+            "depends_on": "eval:doc.age >= 15 && doc.age <= 26",
+            "fieldname": "ylc",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "in_standard_filter": 1,
+            "label": "YLC Entrollment",
+            "options": "Pending For Entrollment\nEntrolled\nNot Entrolled"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [
+        {
+            "link_doctype": "CLC Entrollment",
+            "link_fieldname": "fmid"
+        }
+    ],
+    "modified": "2026-03-12 22:37:00.193534",
+    "modified_by": "Administrator",
+    "module": "janadhikara",
+    "name": "Family Member",
+    "naming_rule": "Expression (old style)",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}
