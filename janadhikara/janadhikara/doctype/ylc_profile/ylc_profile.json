@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-13 11:07:42.661825",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_44dn"
+ ],
+ "fields": [
+        {
+            "fieldname": "ylc_profile_section",
+            "fieldtype": "Section Break",
+            "label": "YLC Profile"
+        },
+        {
+            "fieldname": "youth_learning_center_name",
+            "fieldtype": "Data",
+            "label": "Youth Learning Center Name"
+        },
+        {
+            "fieldname": "name_ylc_incharge",
+            "fieldtype": "Data",
+            "label": "Name of the YLC incharge"
+        },
+        {
+            "fieldname": "contact_num_ylc_incharge",
+            "fieldtype": "Phone",
+            "label": "Contact number of the YLC incharge"
+        },
+        {
+            "fieldname": "name_of_the_primary_caregiver",
+            "fieldtype": "Data",
+            "label": "Name of the primary caregiver"
+        },
+        {
+            "fieldname": "contact_num_primary_caregiver",
+            "fieldtype": "Phone",
+            "label": "Contact number of the primary caregiver"
+        },
+        {
+            "fieldname": "name_of_the_secondary_caregiver",
+            "fieldtype": "Data",
+            "label": "Name of the secondary caregiver"
+        },
+        {
+            "fieldname": "contact_num_secondary_caregiver",
+            "fieldtype": "Phone",
+            "label": "Contact number of the secondary caregiver"
+        }
+    ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-13 11:07:42.661825",
+ "modified_by": "Administrator",
+ "module": "janadhikara",
+ "name": "YLC Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

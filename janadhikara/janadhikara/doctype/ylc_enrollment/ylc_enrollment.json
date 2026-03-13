@@ -1,37 +1,18 @@
 {
-    "actions": [],
-    "allow_rename": 1,
-    "creation": "2026-03-11 13:05:53.232696",
-    "doctype": "DocType",
-    "engine": "InnoDB",
-    "custom": 1,
-    "field_order": [
-        "child_learning_center_id",
-        "fmid",
-        "hhid",
-        "name1",
-        "gender",
-        "date_of_birth",
-        "age",
-        "address",
-        "contact_number",
-        "column_break_wudo",
-        "education_status",
-        "if_in_school",
-        "mother_tongue",
-        "caste",
-        "religion",
-        "name_of_the_mother",
-        "mothers_occupation",
-        "name_of_the_father",
-        "fathers_occupation"
-    ],
-    "fields": [
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-13 12:17:26.482896",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gaqb"
+ ],
+ "fields": [
         {
-            "fieldname": "child_learning_center_id",
+            "fieldname": "youth_learning_center_id",
             "fieldtype": "Link",
-            "label": "Child Learning Center ID",
-            "options": "CLC Profile"
+            "label": "Youth Learning Center ID",
+            "options": "YLC Profile"
         },
         {
             "fieldname": "fmid",
@@ -135,31 +116,31 @@
             "label": "Father's Occupation"
         }
     ],
-    "grid_page_length": 50,
-    "index_web_pages_for_search": 1,
-    "links": [],
-    "modified": "2026-03-12 15:36:45.209667",
-    "modified_by": "Administrator",
-    "module": "janadhikara",
-    "name": "CLC Entrollment",
-    "owner": "Administrator",
-    "permissions": [
-        {
-            "create": 1,
-            "delete": 1,
-            "email": 1,
-            "export": 1,
-            "print": 1,
-            "read": 1,
-            "report": 1,
-            "role": "System Manager",
-            "share": 1,
-            "write": 1
-        }
-    ],
-    "row_format": "Dynamic",
-    "rows_threshold_for_grid_search": 20,
-    "sort_field": "modified",
-    "sort_order": "DESC",
-    "states": []
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-13 12:17:26.482896",
+ "modified_by": "Administrator",
+ "module": "janadhikara",
+ "name": "YLC Enrollment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
 }
