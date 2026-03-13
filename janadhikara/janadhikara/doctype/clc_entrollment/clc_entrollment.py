@@ -7,38 +7,43 @@ from frappe.model.document import Document
 
 class CLCEntrollment(Document):
 
-	def validate(self):
-		self.prevent_duplicate_enrollment()
+    def validate(self):
+        self.prevent_duplicate_enrollment()
 
-	def after_insert(self):
-		self.update_family_member_status()
+    def after_insert(self):
+        self.update_family_member_status()
 
-	def on_trash(self):
-		self.update_family_member_status()
+    def on_update(self):
+        self.update_family_member_status()
 
-	def prevent_duplicate_enrollment(self):
-		"""Prevent enrolling same Family Member twice"""
+    def on_trash(self):
+        self.update_family_member_status()
 
-		if not self.fmid:
-			return
 
-		existing = frappe.db.exists(
-			"CLC Entrollment",
-			{
-				"fmid": self.fmid,
-				"name": ["!=", self.name]
-			}
-		)
+    def prevent_duplicate_enrollment(self):
+        """Prevent same Family Member from enrolling twice in CLC"""
 
-		if existing:
-			frappe.throw("This Family Member is already enrolled in CLC.")
+        if not self.fmid:
+            return
 
-	def update_family_member_status(self):
-		"""Trigger Family Member to recalculate program status"""
+        existing = frappe.get_all(
+            "CLC Entrollment",
+            filters={
+                "fmid": self.fmid,
+                "name": ["!=", self.name]
+            },
+            limit=1
+        )
 
-		if not self.fmid:
-			return
+        if existing:
+            frappe.throw("This Family Member is already enrolled in CLC.")
 
-		member = frappe.get_doc("Family Member", self.fmid)
 
-		member.save(ignore_permissions=True)
+    def update_family_member_status(self):
+        """Trigger Family Member to recalculate program status"""
+
+        if not self.fmid:
+            return
+
+        member = frappe.get_doc("Family Member", self.fmid)
+        member.save(ignore_permissions=True)
