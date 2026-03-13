@@ -9,7 +9,7 @@
   "hide_custom": 0,
   "icon": "website",
   "indicator_color": null,
-  "is_hidden": 1,
+  "is_hidden": 0,
   "label": "Website",
   "links": [
    {
@@ -500,7 +500,7 @@
   "hide_custom": 0,
   "icon": "tool",
   "indicator_color": null,
-  "is_hidden": 1,
+  "is_hidden": 0,
   "label": "Tools",
   "links": [
    {
@@ -1154,7 +1154,7 @@
   "hide_custom": 0,
   "icon": "users",
   "indicator_color": null,
-  "is_hidden": 1,
+  "is_hidden": 0,
   "label": "Users",
   "links": [
    {
@@ -1519,7 +1519,7 @@
   "hide_custom": 0,
   "icon": "integration",
   "indicator_color": null,
-  "is_hidden": 1,
+  "is_hidden": 0,
   "label": "Integrations",
   "links": [
    {
@@ -1898,7 +1898,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"OMD21G6eev\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Janadhikara</span>\",\"col\":12}},{\"id\":\"p_LgJCt37q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Houshold Profile\",\"col\":4}},{\"id\":\"gAACJ4q-NQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Family Member\",\"col\":4}},{\"id\":\"y0ZEP4ymWf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Child Age between 4 to 14\",\"col\":4}},{\"id\":\"zrSaLK0ij8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"CLC Entrollment\",\"col\":4}},{\"id\":\"MXx9Gmg4Yn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Child Learning center\",\"col\":4}},{\"id\":\"BY6jZnzTBs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Youth\",\"col\":4}}]",
+  "content": "[{\"id\":\"OMD21G6eev\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Janadhikara</span>\",\"col\":12}},{\"id\":\"p_LgJCt37q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Houshold Profile\",\"col\":4}},{\"id\":\"gAACJ4q-NQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Family Member\",\"col\":4}},{\"id\":\"y0ZEP4ymWf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Child Age between 4 to 14\",\"col\":4}},{\"id\":\"zrSaLK0ij8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"CLC Entrollment\",\"col\":4}},{\"id\":\"MXx9Gmg4Yn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Child Learning center\",\"col\":4}},{\"id\":\"aSGhQmwuEq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Youth Learning center profile\",\"col\":4}},{\"id\":\"3sXg4NSVJ4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"YLC Entrollment\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -1909,13 +1909,13 @@
   "is_hidden": 0,
   "label": "Janadhikara",
   "links": [],
-  "modified": "2026-03-12 17:20:32.035987",
+  "modified": "2026-03-13 11:11:38.206894",
   "module": null,
   "name": "Janadhikara",
   "number_cards": [
    {
-    "label": "Youth",
-    "number_card_name": "Youth",
+    "label": "Youth Learning center profile",
+    "number_card_name": "Youth Learning center profile",
     "parent": "Janadhikara",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
@@ -1923,6 +1923,13 @@
    {
     "label": "Child Learning center",
     "number_card_name": "Child Learning center profile",
+    "parent": "Janadhikara",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "YLC Entrollment",
+    "number_card_name": "YLC Entrollment",
     "parent": "Janadhikara",
     "parentfield": "number_cards",
     "parenttype": "Workspace"
@@ -1975,7 +1982,7 @@
   "hide_custom": 0,
   "icon": "tool",
   "indicator_color": "",
-  "is_hidden": 1,
+  "is_hidden": 0,
   "label": "Build",
   "links": [
    {
