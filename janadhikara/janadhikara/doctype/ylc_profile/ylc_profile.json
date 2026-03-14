@@ -4,6 +4,7 @@
  "creation": "2026-03-13 11:07:42.661825",
  "doctype": "DocType",
  "engine": "InnoDB",
+ "custom": 1,
  "field_order": [
   "section_break_44dn"
  ],

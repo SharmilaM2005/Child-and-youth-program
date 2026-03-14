@@ -6,6 +6,7 @@
     "creation": "2026-03-11 12:47:27.883672",
     "doctype": "DocType",
     "engine": "InnoDB",
+    "custom": 1,
     "field_order": [
         "household_id",
         "name_of_the_household_head",
