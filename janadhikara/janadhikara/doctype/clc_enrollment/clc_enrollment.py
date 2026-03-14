@@ -16,7 +16,7 @@ class CLCEnrollment(Document):
     def on_update(self):
         self.update_family_member_status()
 
-    def on_trash(self):
+    def after_delete(self):
         self.update_family_member_status()
 
 
