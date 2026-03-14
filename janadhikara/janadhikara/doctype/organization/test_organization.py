@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestCLCEntrollment(FrappeTestCase):
+class TestOrganization(FrappeTestCase):
 	pass

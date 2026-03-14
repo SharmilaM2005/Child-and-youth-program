@@ -5,7 +5,7 @@ import frappe
 from frappe.model.document import Document
 
 
-class CLCEntrollment(Document):
+class CLCEnrollment(Document):
 
     def validate(self):
         self.prevent_duplicate_enrollment()
@@ -27,7 +27,7 @@ class CLCEntrollment(Document):
             return
 
         existing = frappe.get_all(
-            "CLC Entrollment",
+            "CLC Enrollment",
             filters={
                 "fmid": self.fmid,
                 "name": ["!=", self.name]

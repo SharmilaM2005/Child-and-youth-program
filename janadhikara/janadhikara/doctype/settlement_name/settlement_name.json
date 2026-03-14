@@ -1,40 +1,27 @@
 {
  "actions": [],
- "autoname": "autoincrement",
- "creation": "2026-03-13 09:15:57.937057",
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2026-03-13 15:36:05.900162",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "category_name",
-  "min_age",
-  "max_age"
+  "section_break_zord"
  ],
  "fields": [
   {
-   "fieldname": "category_name",
-   "fieldtype": "Select",
-   "label": "Category Name",
-   "options": "Child\nYouth"
-  },
-  {
-   "fieldname": "min_age",
-   "fieldtype": "Int",
-   "label": "Minimum Age"
-  },
-  {
-   "fieldname": "max_age",
-   "fieldtype": "Int",
-   "label": "Maximum Age"
+   "fieldname": "section_break_zord",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-13 13:01:07.472299",
+ "modified": "2026-03-13 15:36:11.806966",
  "modified_by": "Administrator",
  "module": "janadhikara",
- "name": "Age Category",
- "naming_rule": "Autoincrement",
+ "name": "Settlement Name",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
