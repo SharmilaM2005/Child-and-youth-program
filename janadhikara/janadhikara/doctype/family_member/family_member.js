@@ -1,11 +1,5 @@
 frappe.ui.form.on("Family Member", {
 
-	refresh(frm) {
-		if (frm.doc.date_of_birth) {
-			update_age_and_category(frm);
-		}
-	},
-
 	date_of_birth(frm) {
 		if (frm.doc.date_of_birth) {
 			update_age_and_category(frm);
@@ -30,11 +24,9 @@ function update_age_and_category(frm) {
 		let category = "";
 
 		records.forEach(row => {
-
 			if (age >= row.min_age && age <= row.max_age) {
 				category = row.category_name;
 			}
-
 		});
 
 		frm.set_value("child_youth", category);

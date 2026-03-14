@@ -1,5 +1,5 @@
-# Copyright (c) 2026, TFSS and contributors
-# For license information, please see license.txt
+# # Copyright (c) 2026, TFSS and contributors
+# # For license information, please see license.txt
 
 import frappe
 from frappe.model.document import Document
@@ -46,11 +46,11 @@ class FamilyMember(Document):
 
 			status = "YLC Enrolled" if enrolled else "YLC Not Enrolled"
 
-		# Child → Check CLC Entrollment
+		# Child → Check CLC Enrollment
 		elif self.child_youth == "Child":
 
 			enrolled = frappe.db.exists(
-				"CLC Entrollment",   # ← your current DocType name
+				"CLC Enrollment",   # ← correct name
 				{"fmid": self.name}
 			)
 
@@ -84,3 +84,4 @@ def determine_child_youth(age):
 		return "Youth"
 
 	return ""
+
