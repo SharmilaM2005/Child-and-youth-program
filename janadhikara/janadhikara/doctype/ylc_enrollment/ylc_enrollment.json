@@ -4,6 +4,7 @@
  "creation": "2026-03-13 12:17:26.482896",
  "doctype": "DocType",
  "engine": "InnoDB",
+ "custom": 1,
  "field_order": [
   "youth_learning_center_id",
   "fmid",

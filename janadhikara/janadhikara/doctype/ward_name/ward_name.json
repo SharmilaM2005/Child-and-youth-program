@@ -5,6 +5,7 @@
  "creation": "2026-03-13 15:36:46.013565",
  "doctype": "DocType",
  "engine": "InnoDB",
+ "custom":1,
  "field_order": [
   "section_break_81me"
  ],

@@ -9,7 +9,7 @@
   "hide_custom": 0,
   "icon": "website",
   "indicator_color": null,
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Website",
   "links": [
    {
@@ -391,7 +391,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-03-12 12:22:36.571618",
+  "modified": "2026-03-14 16:08:45.161042",
   "module": "Website",
   "name": "Website",
   "number_cards": [],
@@ -400,7 +400,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 14.0,
+  "sequence_id": 5.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -500,7 +500,7 @@
   "hide_custom": 0,
   "icon": "tool",
   "indicator_color": null,
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Tools",
   "links": [
    {
@@ -1062,7 +1062,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-03-12 12:22:25.817317",
+  "modified": "2026-03-14 16:08:45.298881",
   "module": "Automation",
   "name": "Tools",
   "number_cards": [],
@@ -1071,7 +1071,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 17.0,
+  "sequence_id": 6.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -1154,7 +1154,7 @@
   "hide_custom": 0,
   "icon": "users",
   "indicator_color": null,
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Users",
   "links": [
    {
@@ -1410,7 +1410,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-03-12 12:22:39.266254",
+  "modified": "2026-03-14 16:08:45.059009",
   "module": "Core",
   "name": "Users",
   "number_cards": [],
@@ -1419,7 +1419,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 13.0,
+  "sequence_id": 4.0,
   "shortcuts": [
    {
     "color": null,
@@ -1519,7 +1519,7 @@
   "hide_custom": 0,
   "icon": "integration",
   "indicator_color": null,
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Integrations",
   "links": [
    {
@@ -1883,7 +1883,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-03-12 12:22:22.855204",
+  "modified": "2026-03-14 16:08:45.441991",
   "module": "Integrations",
   "name": "Integrations",
   "number_cards": [],
@@ -1892,7 +1892,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 20.0,
+  "sequence_id": 7.0,
   "shortcuts": [],
   "title": "Integrations"
  },
@@ -1909,7 +1909,7 @@
   "is_hidden": 0,
   "label": "Janadhikara",
   "links": [],
-  "modified": "2026-03-13 11:11:38.206894",
+  "modified": "2026-03-14 16:08:44.937111",
   "module": null,
   "name": "Janadhikara",
   "number_cards": [
@@ -1968,7 +1968,7 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 28.0,
+  "sequence_id": 1.0,
   "shortcuts": [],
   "title": "Janadhikara"
  },
@@ -1982,7 +1982,7 @@
   "hide_custom": 0,
   "icon": "tool",
   "indicator_color": "",
-  "is_hidden": 0,
+  "is_hidden": 1,
   "label": "Build",
   "links": [
    {
@@ -2526,7 +2526,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-03-12 12:22:28.158149",
+  "modified": "2026-03-14 16:08:45.555217",
   "module": "Core",
   "name": "Build",
   "number_cards": [],
@@ -2535,7 +2535,7 @@
   "quick_lists": [],
   "restrict_to_domain": "",
   "roles": [],
-  "sequence_id": 27.0,
+  "sequence_id": 8.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -2684,5 +2684,161 @@
   "sequence_id": 22.0,
   "shortcuts": [],
   "title": "Welcome Workspace"
+ },
+ {
+  "charts": [],
+  "content": "[{\"id\":\"lENeK16gVE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Master</span>\",\"col\":12}},{\"id\":\"s87dAvnEwh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Organization\",\"col\":3}},{\"id\":\"tVPJN2OSj9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Surveyor\",\"col\":3}},{\"id\":\"5kJVnuOl7k\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Settlement Name\",\"col\":3}},{\"id\":\"BWRBFrLJBa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Street name\",\"col\":3}},{\"id\":\"nh3o7sq94J\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ward Name\",\"col\":3}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "color-review-points",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Master",
+  "links": [],
+  "modified": "2026-03-14 16:18:25.257842",
+  "module": null,
+  "name": "Master",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 2.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Organization",
+    "link_to": "Organization",
+    "parent": "Master",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Surveyor",
+    "link_to": "Surveyor",
+    "parent": "Master",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Settlement Name",
+    "link_to": "Settlement Name",
+    "parent": "Master",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Street name",
+    "link_to": "Street name",
+    "parent": "Master",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Ward Name",
+    "link_to": "Ward Name",
+    "parent": "Master",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Master"
+ },
+ {
+  "charts": [],
+  "content": "[{\"id\":\"Z2G4puCaFq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">User Creation</span>\",\"col\":12}},{\"id\":\"K2NIP07k9x\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":3}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "share",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "User Creation",
+  "links": [],
+  "modified": "2026-03-14 16:18:54.400416",
+  "module": null,
+  "name": "User Creation",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 3.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "User",
+    "link_to": "User",
+    "parent": "User Creation",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "User Creation"
  }
 ]
